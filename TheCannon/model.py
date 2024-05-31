@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 from copy import deepcopy
 
-plt.rc('text', usetex=True)
+# plt.rc('text', usetex=True)
 plt.rc('font', family='serif')
 
 class CannonModel(object):
