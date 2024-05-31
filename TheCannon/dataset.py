@@ -4,7 +4,7 @@ import sys
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib import rc
-rc('text', usetex=True)
+# rc('text', usetex=True)
 rc('font', family='serif')
 from .helpers.corner import corner
 from .helpers import Table
